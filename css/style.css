@@ -101,7 +101,10 @@
   transform: translate(-50%) rotate(135deg);
 }
 
+.prev::after,
+.next::before,
+.tb-container,
 #start,
 #stop {
-  padding: 5px 10px;
+  cursor: pointer;
 }
