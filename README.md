@@ -1,1 +1,1 @@
-# js-carousel-autoplay
+# JS Carousel autoplay
