@@ -84,5 +84,14 @@ next.addEventListener("click", function () {
 });
 
 /* aggiungere l'autoplay */
+const start = document.getElementById("start");
+const stop = document.getElementById("stop");
+let slideShowInterval;
 
-setInterval(showNext, 3000);
+start.addEventListener("click", function () {
+  slideShowInterval = setInterval(showNext, 3000);
+});
+
+stop.addEventListener("click", function () {
+  clearInterval(slideShowInterval);
+});
